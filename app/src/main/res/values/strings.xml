@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Crypto</string>
+    <string name="view_filepicker_tev_label_text">Datei</string>
+    <string name="view_filepicker_tev_path_hint">auswählen...</string>
+    <string name="activity_main_btn_encrypt_text">Verschlüsseln</string>
+    <string name="activity_main_btn_decrypt_text">Entschlüsseln</string>
+    <string name="msg_choose_file">Bitte wählen Sie eine Datei aus.</string>
+    <string name="msg_no_app_found">Es wurde keine App zum Öffnen dieser Datei gefunden.</string>
+    <string name="dialog_title_file_encrypted">Datei bereits verschlüsselt.</string>
+    <string name="dialog_msg_want_to_decrypt">Möchten Sie die Datei entschlüsseln?</string>
+    <string name="msg_press_back_to_cancel">Drücken Sie noch einmal Zurück, um zu beenden.</string>
+    <string name="msg_choose_file_and_algo">Bitte wählen Sie eine Datei und einen Algorithmus aus.</string>
+    <string name="msg_encryption_success">Datei erfolgreich verschlüsselt.</string>
+    <string name="msg_encryption_failure">Beim Verschlüsseln der Datei ist ein Fehler aufgetreten.</string>
+    <string name="msg_encryption_failure_rsa">Datei ist zu groß für eine RSA-Verschlüsselung.</string>
+    <string name="msg_decryption_success">Datei erfolgreich entschlüsselt.</string>
+    <string name="msg_decryption_failure">Beim Entschlüsseln der Datei ist ein Fehler aufgetreten.</string>
+</resources>

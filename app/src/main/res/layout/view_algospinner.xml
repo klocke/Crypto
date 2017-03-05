@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/imv_algo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/spr_algo"
+        android:padding="2dp"
+        android:src="@drawable/ic_algo"/>
+
+    <TextView
+        android:id="@+id/tev_algo_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imv_algo"
+        android:text="Algorithmus"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/spr_algo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tev_algo_label"
+        android:layout_toRightOf="@+id/imv_algo"/>
+
+</RelativeLayout>
